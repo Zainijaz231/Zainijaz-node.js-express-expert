@@ -85,8 +85,8 @@
 |---------|-------------|------------|-------|
 | 📝 **E-Blog Platform** | Full-stack blogging with authentication | React, Node.js, MongoDB | [🔗 Demo](https://e-blog-demo.vercel.app) • [💻 Code](https://github.com/Zainijaz231/e-blog) |
 | ✅ **Todo List App** | Task management with drag & drop | React, JavaScript, Local Storage | [🔗 Demo](https://todo-app-demo.vercel.app) • [💻 Code](https://github.com/Zainijaz231/todo-list) |
-| 💱 **Currency Converter** | Real-time exchange rates & charts | React, Chart.js, REST APIs | [🔗 Demo](https://currency-converter-demo.vercel.app) • [💻 Code](https://github.com/Zainijaz231/currency-converter) |
-| 🔐 **AuroraPass** | Secure password manager | React, Node.js, Crypto-js | [🔗 Demo](https://aurorapass-demo.vercel.app) • [💻 Code](https://github.com/Zainijaz231/aurorapass) |
+| 💱 **Currency Converter** | Real-time exchange rates & charts | React, REST APIs | [🔗 Demo](https://currency-converter-demo.vercel.app) • [💻 Code](https://github.com/Zainijaz231/currency-converter) |
+| 🔐 **AuroraPass** | Secure password manager | React, Node.js| [🔗 Demo](https://aurorapass-demo.vercel.app) • [💻 Code](https://github.com/Zainijaz231/aurorapass) |
 
 </div>
 
@@ -149,41 +149,7 @@ npm start
 
 </div>
 
----
 
-## 🚀 Deployment Options
-
-<div align="center">
-
-### Recommended Platforms
-
-| Platform | Best For | Setup Difficulty | Cost |
-|----------|----------|------------------|------|
-| **Vercel** | React apps | ⭐ Easy | 🆓 Free |
-| **Netlify** | Static sites | ⭐ Easy | 🆓 Free |
-| **Railway** | Full-stack apps | ⭐⭐ Medium | 💰 Paid |
-| **Render** | Backend APIs | ⭐⭐ Medium | 🆓 Free tier |
-
-</div>
-
-### Quick Deploy to Vercel
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-
-# Follow the prompts
-```
-
-### Domain Suggestions
-- 🌐 `zainijaz.dev` (recommended)
-- 🌐 `zainijaz.com`
-- 🌐 `zainijaz.io`
-
----
 
 ## 🤖 AI-Enhanced Development
 

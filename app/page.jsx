@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-gray-900 to-black py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-slate-900 via-gray-900 to-black py-12 sm:py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
@@ -54,18 +54,18 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
             {/* Terminal Window */}
-            <div className="terminal-window max-w-4xl mx-auto mb-8">
+            <div className="terminal-window max-w-4xl mx-auto mb-6 sm:mb-8">
               <div className="terminal-header">
                 <div className="terminal-dot red"></div>
                 <div className="terminal-dot yellow"></div>
                 <div className="terminal-dot green"></div>
-                <span className="text-gray-400 text-sm ml-4 font-mono">~/zainijaz</span>
+                <span className="text-gray-400 text-xs sm:text-sm ml-2 sm:ml-4 font-mono">~/zainijaz</span>
               </div>
-              <div className="p-6 font-mono text-left">
-                <div className="text-green-400 mb-2">$ whoami</div>
-                <div className="text-white mb-4">Zainijaz - Backend Developer</div>
-                <div className="text-green-400 mb-2">$ cat skills.json</div>
-                <div className="text-gray-300 text-sm">
+              <div className="p-3 sm:p-6 font-mono text-left">
+                <div className="text-green-400 mb-2 text-sm sm:text-base">$ whoami</div>
+                <div className="text-white mb-4 text-sm sm:text-base">Zainijaz - Backend Developer</div>
+                <div className="text-green-400 mb-2 text-sm sm:text-base">$ cat skills.json</div>
+                <div className="text-gray-300 text-xs sm:text-sm overflow-x-auto">
                   <span className="text-blue-400">{"{"}</span><br />
                   &nbsp;&nbsp;<span className="text-yellow-300">"primary"</span>: <span className="text-green-300">["Node.js", "Express.js", "MongoDB", "REST APIs"]</span>,<br />
                   &nbsp;&nbsp;<span className="text-yellow-300">"secondary"</span>: <span className="text-green-300">["React", "JavaScript", "Frontend"]</span>,<br />
@@ -73,21 +73,21 @@ export default function Home() {
                   &nbsp;&nbsp;<span className="text-yellow-300">"projects"</span>: <span className="text-green-300">["E-Blog", "Todo-List", "Currency-Converter", "AuroraPass"]</span><br />
                   <span className="text-blue-400">{"}"}</span>
                 </div>
-                <div className="text-green-400 mt-4 typing-animation">$ ready_to_code --always</div>
+                <div className="text-green-400 mt-4 typing-animation text-sm sm:text-base">$ ready_to_code --always</div>
               </div>
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 px-2">
               <span className="font-mono text-gray-400">&lt;</span>
               <span className="gradient-text">Zainijaz</span>
               <span className="font-mono text-gray-400">/&gt;</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto px-4">
               Backend-focused JavaScript developer with 1+ year of experience building scalable server-side applications
               and crafting clean, efficient APIs. I leverage AI tools like ChatGPT and GitHub Copilot to enhance productivity
               while maintaining code quality. I also have frontend skills in React.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
               <Link
                 href="/projects"
                 className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-600 to-purple-600 text-white font-medium rounded-lg hover:from-primary-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
@@ -109,9 +109,9 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-white">
+      <section className="py-12 sm:py-16 md:py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">About Me</h2>
               <div className="space-y-4 text-gray-600">
@@ -166,9 +166,9 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-900 to-slate-800">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-gray-900 to-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8 sm:mb-12 md:mb-16">
             <h2 className="text-3xl font-bold text-white mb-4 font-mono">
               <span className="text-gray-400">//</span> Skills & Technologies
             </h2>
@@ -177,7 +177,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {/* Backend Skills */}
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 p-6 rounded-lg border border-slate-700 hover:border-primary-500 transition-all duration-300">
               <h3 className="text-xl font-semibold text-white mb-6 flex items-center">
@@ -278,7 +278,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary-600">
+      <section className="py-12 sm:py-16 md:py-20 bg-primary-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Let's Build Something Amazing Together

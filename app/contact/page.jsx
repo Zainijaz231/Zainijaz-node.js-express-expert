@@ -81,7 +81,7 @@ export default function Contact() {
       {/* Quick Actions */}
       <section className="py-16 -mt-10 relative z-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-6 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-12 sm:mb-16">
             {quickActions.map((action, index) => (
               <a
                 key={index}
@@ -110,7 +110,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {contactMethods.map((method, index) => (
               <div key={index} className="text-center group">
                 <div className={`inline-flex items-center justify-center w-16 h-16 ${method.color} rounded-full mb-4 group-hover:scale-110 transition-transform duration-300`}>
@@ -132,7 +132,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Info Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <MapPin className="h-8 w-8 text-primary-600 mx-auto mb-3" />
               <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
@@ -172,7 +172,7 @@ export default function Contact() {
             <p className="text-xl text-gray-600">Everything you need to know about working with me</p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">
                 🎯 What type of projects do you work on?

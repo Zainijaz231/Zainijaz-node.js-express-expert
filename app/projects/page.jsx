@@ -191,7 +191,7 @@ export default function Projects() {
       {/* Projects Grid */}
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
@@ -209,7 +209,7 @@ export default function Projects() {
             I'm always open to discussing new projects, creative ideas, or opportunities
             to be part of your vision.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
             <a
               href="/contact"
               className="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
