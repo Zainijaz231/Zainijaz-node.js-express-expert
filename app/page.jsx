@@ -16,9 +16,7 @@ const skills = {
     { name: 'Node.js', icon: Server, level: 90 },
     { name: 'Express.js', icon: Zap, level: 85 },
     { name: 'MongoDB', icon: Database, level: 80 },
-    { name: 'PostgreSQL', icon: Database, level: 75 },
     { name: 'REST APIs', icon: Globe, level: 90 },
-    { name: 'GraphQL', icon: Layers, level: 70 },
   ],
   frontend: [
     { name: 'React', icon: Code2, level: 70 },
