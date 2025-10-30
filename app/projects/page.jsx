@@ -22,9 +22,9 @@ const projects = [
   {
     id: 2,
     title: 'Todo List Application',
-    description: 'A modern task management application with drag-and-drop functionality, categories, due dates, and priority levels. Built with React and local storage for data persistence.',
+    description: 'A modern task management application with drag-and-drop functionality, categories, due dates, and priority levels. Built with React and BackEnd for data persistence.',
     image: '/todo-list.png',
-    tech: ['React', 'JavaScript', 'Tailwind CSS', 'Local Storage', 'React DnD'],
+    tech: ['React', 'JavaScript', 'Tailwind CSS', 'BackEnd', 'React DnD'],
     category: 'Frontend + backend',
     github: 'https://github.com/Zainijaz231/todo-list',
     demo: 'https://todo-list-frontend-drab.vercel.app/',
@@ -33,7 +33,7 @@ const projects = [
       'Priority levels and due dates',
       'Category-based task filtering',
       'Dark/light theme toggle',
-      'Data persistence with local storage',
+      'Data persistence with BackEnd',
       'User authentication & profiles'
 
     ]
@@ -61,7 +61,7 @@ const projects = [
     description: 'A secure password manager application with encryption, password generation, and secure storage. Features master password protection, password strength analysis, and secure sharing capabilities.',
     image: '/aura-pass.png',
     tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
-    category: 'Full Stack',
+    category: 'Frontend',
     github: 'https://github.com/Zainijaz231/aurorapass',
     demo: 'https://aurora-pass.vercel.app/',
     highlights: [
